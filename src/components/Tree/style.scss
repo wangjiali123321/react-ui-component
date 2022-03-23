@@ -1,0 +1,52 @@
+@import "../../styles/mixin";
+@import "../../styles/variables";
+@import "../../styles/reboot";
+
+.chocolate-tree {
+  width: max-content;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  &-nodes {
+    position: relative;
+    overflow: hidden;
+    animation: chocolate-fade-in $default-transition forwards;
+    .node {
+      .inner {
+        color: #000;
+        font-size: $tree-font-size;
+        font-family: $tree-font-family;
+        font-weight: $tree-font-weight;
+        position: relative;
+        cursor: pointer;
+        padding-left: $tree-padding-x;
+
+        .collapse {
+          position: absolute;
+          left: 0;
+          cursor: pointer;
+          height: 20px;
+          line-height: 20px;
+        }
+        .caret-right:before {
+          content: '\25B8';
+          font-size: $tree-content-font-size;
+        }
+        .caret-down:before {
+          content: '\25BE';
+          font-size: $tree-content-font-size;
+        }
+        .content {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          padding: $tree-padding-y $tree-padding-x;
+        }
+      }
+
+      .children {
+        padding-left: 20px;
+      }
+    }
+  }
+}

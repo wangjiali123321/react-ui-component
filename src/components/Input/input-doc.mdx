@@ -1,0 +1,33 @@
+<!-- Input Doc -->
+## Input 输入框
+通过鼠标或键盘输入内容，是最基础的表单域的包装。
+
+import { Story, Meta, ArgsTable, Source } from '@storybook/addon-docs/blocks';
+import { Input } from './input';
+import dedent from 'ts-dedent';
+<Meta title="Components/Input" component={Input} />;
+
+### 使用
+
+<Source
+  language='jsx'
+  code={
+    dedent`
+      <Input
+        size={size}
+        placeholder={placeholder}
+        disabled = {disabled}
+        prepend={prepend}
+        append={append}
+        defaultValue={defaultValue}
+        onChange={action('changed')}
+        style={{ width: 300  }}
+      />
+    `
+  }
+/>
+
+### 具体参数
+<ArgsTable of={Input} />
+
+export const Template = (args) => <Input {...args} />

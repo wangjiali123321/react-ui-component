@@ -1,0 +1,31 @@
+// import React, { useState } from "react";
+// import { Meta, Story } from "@storybook/react";
+// import Card from "../Card/card";
+// import Table from "./BetterTable";
+// import "../../styles/common.stories";
+// import TableDoc from "./table-doc.mdx";
+// import Message from "../Message";
+
+// function BaseTabs() {
+// }
+
+// export default {
+//   component: Table,
+//   title: "Table 表格",
+//   parameters: {
+//     docs: {
+//       page: TableDoc,
+//       source: {
+//         type: "code",
+//       },
+//     },
+//     controls: {
+//       include: [],
+//       hideNoControlsWarning: true,
+//     },
+//   },
+// } as Meta;
+
+// const _default: Story<any> = () => <BaseTabs />;
+
+// export const Primary = _default.bind({});

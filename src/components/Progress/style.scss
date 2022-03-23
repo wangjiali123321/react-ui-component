@@ -1,0 +1,110 @@
+@import "../../styles/mixin";
+@import "../../styles/variables";
+@import "../../styles/reboot";
+
+.chocolate-progress {
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+
+  &-bar-outer {
+    border-radius: $progress-border-radius;
+    background-color: $progress-bg;
+    overflow: hidden;
+    position: relative;
+  }
+
+  &-bar-inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    border-radius: $progress-border-radius;
+    line-height: 1;
+    transition: $progress-bar-transition;
+
+    &-animate::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg,
+          transparent 25%,
+          rgba(255, 255, 255, 0.5) 50%,
+          transparent 75%);
+      background-size: 400% 100%;
+      animation: progress-loading 1.5s $animate-type infinite;
+    }
+
+    &-text {
+      color: $progress-bar-color;
+      font-size: $progress-font-size;
+      margin: 0 5px;
+    }
+  }
+
+  @each $key,
+  $val in $theme-colors {
+    .color-#{$key} {
+      background-color: $val;
+    }
+  }
+
+
+  &-circle {
+    &-wrapper {
+      position: relative;
+      display: block;
+      overflow: hidden;
+    }
+
+    &-text {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate3d(-50%, -50%, 0);
+      fill: $font-color;
+      font-size: $font-size-lg;
+      font-weight: $font-weight-base;
+      text-anchor: middle;
+    }
+  }
+
+  &-svg {
+    transform: rotate(-90deg);
+
+    @each $key,
+    $val in $theme-colors {
+      .chocolate-progress-circle-color-#{$key} {
+        stroke: $val;
+        stroke-linecap: round; // inherit
+      }
+    }
+
+    circle {
+      fill: none;
+      transition: stroke-dashoffset 0.3s linear;
+    }
+
+    .arc-background {
+      stroke: $light;
+    }
+  }
+
+}
+
+@include keyframes(progress-loading) {
+  0% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+}

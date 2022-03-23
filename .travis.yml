@@ -1,0 +1,20 @@
+# 20210706 弃用
+language: node_js
+node_js:
+    - 14.x
+install: 
+    - npm install --legacy-peer-deps   
+cache:
+    directories:
+    - node_modules  #使用缓存
+env:
+    - CI=true #
+script:
+    - npm run build-storybook
+deploy:
+    provider: pages
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN
+    local_dir: storybook-static
+    on:
+      branch: master

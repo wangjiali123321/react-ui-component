@@ -1,0 +1,29 @@
+<!-- Alert Doc -->
+## Alert 警告提示
+我们可以配置不同类型的 `Alert`, 以满足各种情况下的展示提示。
+
+import { Story, Meta, ArgsTable, Source } from '@storybook/addon-docs/blocks';
+import { Alert } from './alert';
+import dedent from 'ts-dedent';
+<Meta title="Components/Alert" component={Alert} />;
+
+### 使用
+
+<Source
+  language='jsx'
+  code={
+    dedent`
+      <Alert
+      message={message} 
+      description={description} 
+      closable={closable} 
+      type={type}
+      onClose={action('close')}
+    />`
+  }
+/>
+
+### 具体参数
+<ArgsTable of={Alert} />
+
+export const Template = (args) => <Alert {...args} />
