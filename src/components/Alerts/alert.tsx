@@ -10,7 +10,7 @@ import Icon from "../Icon";
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
 import { ThemeProps } from "../Icon/icon";
 
-export type AlertType = "success" | "default" | "danger" | "warning";
+export type AlertType = "success" | "default" | "danger" | "warning" | "normal";
 
 export interface BaseAlertProps {
   className?: string;
@@ -47,40 +47,20 @@ export const Alert: FC<BaseAlertProps> = (props) => {
     theme,
     ...restProps
   } = props;
-  const [visible, setVisible] = useState(true);
 
-  const classes = classNames("alert-wrapper", className, {
-    [`alert-${type}`]: type,
-    "alert-closable": true,
-  });
-
-  const handleClose = (e: MouseEvent<SVGSVGElement>) => {
-    setVisible(false);
-    onClose && onClose(e);
-  };
-
-  return visible ? (
+  return type === 'normal' ? (
     <>
-      <div className={classes} {...restProps}>
-        {icon ? (
-          <Icon icon={icon} theme={theme} style={{ marginRight: 5 }} />
-        ) : null}
-        <span className={description ? "" : "alert-message-normal"}>
-          {message}
-        </span>
-        {description && (
-          <span className="alert-description">{description}</span>
-        )}
-        {closable && (
-          <Icon
-            className="alert-close-icon"
-            icon="times"
-            onClick={handleClose}
-          ></Icon>
-        )}
+      <div>
+        normal
       </div>
     </>
-  ) : null;
+  ): (
+    <>
+      <div>
+        success
+      </div>
+    </>
+  )
 };
 
 Alert.defaultProps = {
