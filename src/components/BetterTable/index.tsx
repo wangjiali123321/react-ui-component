@@ -1,8 +1,5 @@
 import React, { memo, useState, useEffect, useCallback } from "react";
-import PageWrap from "../../components/PageWrap";
 import BetterTable from "./BetterTable";
-import { ConfigContext } from "./service";
-import Test from "./test";
 
 function Intro() {
   const [toRefreshList, setToRefreshList] = useState<Boolean>(false);
@@ -57,9 +54,7 @@ function Intro() {
   );
 
   return (
-    <ConfigContext.Provider value={{ value: 1 }}>
-      <PageWrap className="intro">
-        <Test></Test>
+    <div>
         <BetterTable
           thead={thead}
           operateConfig={operateConfig}
@@ -67,8 +62,7 @@ function Intro() {
           firstslot={firstslot}
           emitClick={emitClick}
         />
-      </PageWrap>
-    </ConfigContext.Provider>
+    </div>
   );
 }
 

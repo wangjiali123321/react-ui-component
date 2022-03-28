@@ -1,9 +1,7 @@
 import React, { useMemo, useCallback, useEffect, useState, memo } from "react";
 import { Table, Button } from "antd";
 import { Menu, BetterTableProps, optTypeItemProps } from "./service";
-import "./index.less";
 import classnames from "classnames";
-import { ConfigContext } from "./service";
 
 function BetterTable(props: BetterTableProps) {
   console.log(props);
@@ -46,10 +44,6 @@ function BetterTable(props: BetterTableProps) {
 
   return (
     <div className="lucky_table_better">
-      <ConfigContext.Consumer>
-        {context => <div>{context.value}</div>}
-      </ConfigContext.Consumer>
-      <header></header>
       <section>
         <Table<Menu> dataSource={menuData}>
           {props.thead.map((e, index) => {
