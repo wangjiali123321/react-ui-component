@@ -10,7 +10,6 @@ const reactCropper: React.FC = () => {
     console.log(cropper.getCroppedCanvas().toDataURL());
   };
   
-
   return (
     <Cropper
       src="https://t7.baidu.com/it/u=1595072465,3644073269&fm=193&f=GIF"
