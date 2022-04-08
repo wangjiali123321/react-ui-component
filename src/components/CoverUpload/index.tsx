@@ -1,12 +1,12 @@
 import React, { memo, useState, useEffect, useCallback } from "react";
-import BetterTable from "./coverupload";
+import Coverupload from "./coverupload";
 
 function Intro() {
   
 
   return (
     <div>
-        <BetterTable
+        <Coverupload
         />
     </div>
   );
