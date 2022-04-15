@@ -1,0 +1,32 @@
+<!-- Button Doc -->
+## Button 按钮
+我们可以配置不同大小，不同类型的 `Button`
+
+import { Story, Meta, ArgsTable, Source } from '@storybook/addon-docs/blocks';
+import { Button } from './button';
+import dedent from 'ts-dedent';
+<Meta title="Components/Button" component={Button} />;
+
+### 使用
+
+<Source
+  language='jsx'
+  code={
+    dedent`
+      <Button
+        size={size}
+        href={href}
+        disabled={disabled}
+        className={className}
+        btnType={btnType}
+        onClick={action('clicked')}
+      > 
+        button 
+      </Button>`
+  }
+/>
+
+### 具体参数
+<ArgsTable of={Button} />
+
+export const Template = (args) => <Button {...args} />
