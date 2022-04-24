@@ -1,0 +1,21 @@
+@import "../../styles/mixin";
+@import "../../styles/variables";
+@import "../../styles/reboot";
+
+$highlight-color: #F90;
+
+.jim-btn {
+    border: 1px solid #dcdee6;
+    border-radius: 4px;
+    .inline-text{
+        display: inline-block;
+    }
+    &:hover{
+        background: #ffffff;
+        color: #1c92ff;
+        border: #1c92ff;
+    }
+}
+.jim-btn-largesize {
+    font-size: 30px;
+}

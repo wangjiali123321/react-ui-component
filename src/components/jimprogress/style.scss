@@ -1,0 +1,27 @@
+@import "../../styles/mixin";
+@import "../../styles/variables";
+@import "../../styles/reboot";
+
+.jim-chocolate-progress {
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+
+  &-bar-outer {
+    height: 10px;
+    border-radius: 4px;
+    background: grey;
+    position: relative;
+  }
+
+  &-bar-inner {
+    height: 100%;
+    border-radius: 4px;
+    line-height: 1;
+    position: absolute;
+    left: 0;
+    top:0;
+    background: red;
+  }
+
+}
