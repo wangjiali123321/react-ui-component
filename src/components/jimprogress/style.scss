@@ -12,16 +12,38 @@
     border-radius: 4px;
     background: grey;
     position: relative;
+    overflow: hidden;
   }
 
   &-bar-inner {
     height: 100%;
-    border-radius: 4px;
-    line-height: 1;
-    position: absolute;
-    left: 0;
-    top:0;
-    background: red;
+    // background-image: linear-gradient( to right, transparent 0%, #00B5D8 50%, transparent 100% );
+    background-image: linear-gradient( 45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent );
+    position: relative;
+    will-change: left;
+    min-width: 50%;
+    // animation: mymove 5s infinite;
+    // left:-40%;
+    // animation:mymove 5s infinite;
   }
-
+  @keyframes mymove
+  {
+    from {left:-40%;}
+    to {left:100%;}
+  }
+  .jimBox{
+      width: 200px;
+      height: 200px;
+      padding: 30px;
+      margin: 30px;
+      border: 10px solid red;
+      background-color: cadetblue;
+      /* content-box
+      宽：200  高：200  padding：10  border：5px  合计大小230 */
+      /* box-sizing: content-box; */
+      box-sizing: border-box;
+      /* border-box
+      宽：170  高：170  padding：10  border：5px  合计大小200  */
+    
+  }
 }

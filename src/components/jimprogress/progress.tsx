@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import React, { FC, useContext } from "react";
 import { ThemeProps } from "../Icon/icon";
 import { scopedClass } from "../../utils/scopedClass";
 import classNames from "classnames";
@@ -69,14 +69,35 @@ export const Progress: FC<ProgressProps> = (props) => {
   const { max, className, unit = "%", width = 0, circle } = props;
   const style11 = {width:'50%'}
 
-  //todo  各种use
+  //todo  各种use hook react
+  // useContext
+
   //todo rxjs
-  // RxJS v6+
-  // 依次发出提供的任意数量的值
   const source = of(1, 2, 3, 4, 5);
-  // 输出: 1,2,3,4,5
   const subscribe = source.subscribe(val => console.log(val));
+
   //todo ts 
+  interface User {
+    age: number;
+    name: string;
+  };
+  type PickUser1 = Pick<User, "age">
+  // type Omit<T, K> = Pick<T, Exclude<keyof T, K>>
+  // type PickUser = Omit<User,'age'>
+  type PickUser2 = Pick<User, Exclude<keyof User, 'age'>>
+
+  // todo scss
+  // @keyframe
+
+  // todo 算法
+  // fish算法
+
+  // js 
+  // proxy
+
+  // git
+
+  // http
 
   return (
     <div className="jim-chocolate-progress" style={style}>
@@ -85,6 +106,7 @@ export const Progress: FC<ProgressProps> = (props) => {
 
          </div>
       </div>
+      <div className="jimBox"></div>
     </div>
   );
 };
