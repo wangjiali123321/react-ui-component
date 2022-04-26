@@ -52,6 +52,12 @@ export interface ProgressProps {
 
 const prefixCls = "jim-chocolate-progress";
 export const Progress: FC<ProgressProps> = (props) => {
+
+  // react hook
+  //css
+  //算法
+  //es6
+  //ts
   const {
     percent,
     strokeHeight = 12,
