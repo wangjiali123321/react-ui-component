@@ -101,6 +101,14 @@ export const Progress: FC<ProgressProps> = (props) => {
          </div>
       </div>
       <div className="jimBox"></div>
+      {/* border-box -  content-box */}
+      <div className="namegod"></div>
+      <div className="namegod"></div>
+      {/* 清除浮动 */}
+      <div className="parent">
+          <div className="child" id="one"></div>
+      </div>
+
     </div>
   );
 };

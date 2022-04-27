@@ -46,4 +46,20 @@
       宽：170  高：170  padding：10  border：5px  合计大小200  */
     
   }
+  .namegod{
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    margin: 100px;
+  }
+  .parent{
+    border: 10px solid red;
+    overflow: hidden;
+    .child{
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      float: left;
+    }
+  }
 }
