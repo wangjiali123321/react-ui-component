@@ -86,6 +86,8 @@ export const Progress: FC<ProgressProps> = (props) => {
   // type PickUser = Omit<User,'age'>
   type PickUser2 = Pick<User, Exclude<keyof User, 'age'>>
 
+  
+
   // todo scss
   // @keyframe
 
