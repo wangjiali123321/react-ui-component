@@ -1,11 +1,11 @@
 react   看视频
-6.为什么 Fiber 双向链表的结构可以解决递归慢的问题组件库自己实现和完善组件，
-10.说一下 react 组件的生命周期；待组件库自己实现和完善组件，
-11.react 组件如何做性能优化，说说 pureComponent；待组件库自己实现和完善组件，
-12.调用 setState 之后发生了什么;待组件库自己实现和完善组件，
-13.了解 fiber 么？解决了什么问题？具体原理是；待组件库自己实现和完善组件，
-14.有用过 hooks 么？怎么看待 hooks？它的原理是；待组件库自己实现和完善组件，
-15.了解过 react 最新的一些动态么？time slice 、suspense、server component 能说说么；待组件库自己实现和完善组件，
+6.为什么 Fiber 双向链表的结构可以解决递归慢的问题
+10.说一下 react 组件的生命周期；
+11.react 组件如何做性能优化，说说 pureComponent；
+12.调用 setState 之后发生了什么;，
+13.了解 fiber 么？解决了什么问题？具体原理是；
+14.有用过 hooks 么？怎么看待 hooks？它的原理是；
+15.了解过 react 最新的一些动态么？time slice 、suspense、server component 能说说么；
 
 组件
 设计一个时间组件 日历组件
@@ -13,7 +13,7 @@ react   看视频
 实现一个流水线组件
 
 js
-
+1.   正则  [^'']+(?="")
 2.ES6 Proxy 如何使用以及使用场景，说说 Reflect； reactiviy原理用上es6高级用法
 3.generator 有什么应用场景;es6用上es6高级用法
 4.async await 如何实现的；es6用上es6高级用法
