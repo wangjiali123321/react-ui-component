@@ -1,3 +1,8 @@
+Webpack4-Dev-》vue||react->js，ts，css,算法，webgl，http-》组件库-》webpack打包-》jenkis部署 ->git
+lerna脚手架（node）-》前端效率工具
+
+
+
 webpack
 为什么 vite、snowpack 可以比 webpack 快那么多？(5.1 看视频)
 
@@ -9,6 +14,10 @@ react   看视频
 13.了解 fiber 么？解决了什么问题？具体原理是；
 14.有用过 hooks 么？怎么看待 hooks？它的原理是；
 15.了解过 react 最新的一些动态么？time slice 、suspense、server component 能说说么；
+
+环境配置
+eslint  preclint！！！  5.5
+vscode插件
 
 js
 1.   正则  [^'']+(?="")
