@@ -17,7 +17,7 @@ react   看视频
 
 环境配置
 eslint  preclint！！！  5.5
-vscode插件
+vscode插件  5.5
 
 js
 1.   正则  [^'']+(?="")
@@ -60,10 +60,15 @@ css
 3.希尔排序，堆排，快排；
 4.this 指向问题，说出输出内容；待
 
+
+
 组件
 设计一个时间组件 日历组件
 设计实现一个「星级评分」组件；待
 实现一个流水线组件
+contentDetail ，baselayout ， luckymutlcardlist  5.5
+
+
 
 git
 7.git reset 与 revert 区别，revert 多个 mr 改如何处理；待写自动化脚本cli
