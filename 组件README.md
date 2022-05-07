@@ -1,10 +1,13 @@
-Webpack4-Dev-》vue||react->js，ts，css,算法，webgl，http-》组件库-》webpack打包-》jenkis部署 ->git
+Webpack4-Dev-》vue||react->js，ts，css,算法，rxjs，webgl，http-》组件库-》webpack打包-》jenkis部署 ->git
 lerna脚手架（node）-》前端效率工具
 
 
 
 webpack
 为什么 vite、snowpack 可以比 webpack 快那么多？(5.1 看视频)
+
+vue
+
 
 react   看视频
 6.为什么 Fiber 双向链表的结构可以解决递归慢的问题 （5.1 待看视频更深入了解）
@@ -28,6 +31,9 @@ js
 1.ES5 实现继承的方法;待用上es6高级用法
 2.js 的严格模式；用上es6高级用法
 说说 Iterator 的使用；
+
+rxjs
+文档案例
 
 ts
 看高级类型
@@ -67,6 +73,8 @@ css
 设计实现一个「星级评分」组件；待
 实现一个流水线组件
 contentDetail ，baselayout ， luckymutlcardlist  5.5
+cropper组件？？ 5.6
+mavon-editor
 
 
 
