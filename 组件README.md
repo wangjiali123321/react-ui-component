@@ -1,4 +1,4 @@
-Webpack4-Dev-》vue||react->js，ts，css,算法，webgl，http-》组件库-》webpack打包-》jenkis部署 ->git
+Webpack4-Dev-》vue||react->js，ts，css,算法，webgl，http-》组件库->-环境配置-》webpack打包-》jenkis部署 ->git
 lerna脚手架（node）-》前端效率工具
 
 
@@ -12,7 +12,7 @@ react   看视频
 11.react 组件如何做性能优化，说说 pureComponent；
 12.调用 setState 之后发生了什么;，
 13.了解 fiber 么？解决了什么问题？具体原理是；
-14.有用过 hooks 么？怎么看待 hooks？它的原理是；
+14.有用过 hooks 么？怎么看待 hooks？它的原理是；git
 15.了解过 react 最新的一些动态么？time slice 、suspense、server component 能说说么；
 
 环境配置
