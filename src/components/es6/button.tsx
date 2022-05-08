@@ -71,7 +71,61 @@ export const Button: FC<any> = (props) => {
   let testArr = arrProxy(arr)
   console.log(testArr[-1]) // 6
 
+  // generaor
+  function* chef(){  //大厨
+      console.log("炒鸡");
+      yield "worker";//交由伙计处理
+      console.log("上料");
+      yield "worker";//交由伙计处理
+  }
+  function* worker(){  //伙计
+      console.log("准备工作");
+      yield "chef";   //交由大厨处理
+      console.log("炖鸡");
+      yield "chef";   //交由大厨处理
+      console.log("上菜");
+    }
+  var ch = chef();
+  var wk = worker();
+    
+  function run(gen:any){  //流程控制
+      var v = gen.next();
+      if(v.value =="chef"){
+          run(ch);
+      }else if(v.value =="worker"){
+          run(wk);
+      }
+  }
+  run(wk);//开始执行
+
+  //1s后打印111，2s后打印222，3s打印333
   
+  // function one() {
+  //   setTimeout(() => {
+  //     console.log(111);
+  //     iterator.next() //执行第二个暂停点
+  //   },1000)
+  // }
+  // function two() {
+  //   setTimeout(() => {
+  //     console.log(222);
+  //     iterator.next() //执行第三个暂停点
+  //   },2000)
+  // }
+  // function three() {
+  //   setTimeout(() => {
+  //     console.log(333);
+  //   },3000)
+  // }
+  
+  // function * gen() {
+  //     yield one()
+  //     yield two()
+  //     yield three()
+  // }
+  // let iterator = gen()
+  // iterator.next() //执行第一个暂停点
+
   return (
     <button className={classes} {...restProps} >
       <span className='inline-text'>{children}21</span>
