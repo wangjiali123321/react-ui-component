@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 业务-》 Webpack4-Dev-》vue||react->js，ts，css,算法，rxjs，webgl，http-》组件库-》webpack打包-》jenkis部署 ->git
 
+=======
+<<<<<<< HEAD
+Webpack4-Dev-》vue||react->js，ts，css,算法，webgl，http-》组件库->-环境配置-》webpack打包-》jenkis部署 ->git
+=======
+Webpack4-Dev-》vue||react->js，ts，css,算法，rxjs，webgl，http-》组件库-》webpack打包-》jenkis部署 ->git
+>>>>>>> 90d761c3c184be95b33821c9d69a03d938757157
+>>>>>>> ff13efafee84a8bf895a9c48714aa0afcfc083ec
 lerna脚手架（node）-》前端效率工具
 
 
@@ -15,8 +23,14 @@ react   看视频
 6.为什么 Fiber 双向链表的结构可以解决递归慢的问题 （5.1 待看视频更深入了解）写博客
 10.说一下 react 组件的生命周期；
 11.react 组件如何做性能优化，说说 pureComponent；
+<<<<<<< HEAD
 12.调用 setState 之后发生了什么;
 14.有用过 hooks 么？怎么看待 hooks？它的原理是；
+=======
+12.调用 setState 之后发生了什么;，
+13.了解 fiber 么？解决了什么问题？具体原理是；
+14.有用过 hooks 么？怎么看待 hooks？它的原理是；git
+>>>>>>> ff13efafee84a8bf895a9c48714aa0afcfc083ec
 15.了解过 react 最新的一些动态么？time slice 、suspense、server component 能说说么；
 
 环境配置
