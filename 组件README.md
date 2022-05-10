@@ -1,5 +1,7 @@
-Webpack4-Dev-》vue||react->js，ts，css,算法，rxjs，webgl，http-》组件库-》webpack打包-》jenkis部署 ->git
+业务-》 Webpack4-Dev-》vue||react->js，ts，css,算法，rxjs，webgl，http-》组件库-》webpack打包-》jenkis部署 ->git
+
 lerna脚手架（node）-》前端效率工具
+
 
 
 
@@ -10,11 +12,10 @@ vue
 
 
 react   看视频
-6.为什么 Fiber 双向链表的结构可以解决递归慢的问题 （5.1 待看视频更深入了解）
+6.为什么 Fiber 双向链表的结构可以解决递归慢的问题 （5.1 待看视频更深入了解）写博客
 10.说一下 react 组件的生命周期；
 11.react 组件如何做性能优化，说说 pureComponent；
-12.调用 setState 之后发生了什么;，
-13.了解 fiber 么？解决了什么问题？具体原理是；
+12.调用 setState 之后发生了什么;
 14.有用过 hooks 么？怎么看待 hooks？它的原理是；
 15.了解过 react 最新的一些动态么？time slice 、suspense、server component 能说说么；
 
@@ -75,8 +76,23 @@ css
 contentDetail ，baselayout ， luckymutlcardlist  5.5
 cropper组件？？ 5.6
 mavon-editor
+vue-simple-uploader 断点续传
+
+ionic 
+16.怎么实现响应式布局的；ionic移动端布局试试
+18.有兼容 retina 屏幕的经历吗？如何在移动端实现 1 px 的线;待ionic 集合处理
+33.hybrid 通信原理；
+
+node：
+1 ssr
+36.SSR 怎么做的，怎么保证同构？server 端的数据都 renderToSting 消费了，为什么还要给到 client 端；
+1.node 如何捕捉错误，内存泄漏怎么排查；
+2.为什么要做 SSR；
+3.E2E 测试怎么做的，怎么保证测试覆盖率和准确性；
+如何合理分配 node 服务资源；
 
 
+//////////////////////////////// 下方代码以外的知识
 
 git
 7.git reset 与 revert 区别，revert 多个 mr 改如何处理；待写自动化脚本cli
@@ -103,15 +119,3 @@ tcp 握手 回收过程，了解泛洪攻击么；
 了解设计模式么，说说单例模式的优缺点
 
 
-ionic 
-16.怎么实现响应式布局的；ionic移动端布局试试
-18.有兼容 retina 屏幕的经历吗？如何在移动端实现 1 px 的线;待ionic 集合处理
-33.hybrid 通信原理；
-
-node：
-1 ssr
-36.SSR 怎么做的，怎么保证同构？server 端的数据都 renderToSting 消费了，为什么还要给到 client 端；
-1.node 如何捕捉错误，内存泄漏怎么排查；
-2.为什么要做 SSR；
-3.E2E 测试怎么做的，怎么保证测试覆盖率和准确性；
-如何合理分配 node 服务资源；

@@ -1,6 +1,8 @@
 import React, { FC } from "react";
 import classNames from "classnames";
 import './style.scss'
+import { fromEvent } from 'rxjs';
+import { throttleTime, scan } from 'rxjs/operators';
 
 
 const prefixCls = "jim-btn";
@@ -125,6 +127,44 @@ export const Button: FC<any> = (props) => {
   // }
   // let iterator = gen()
   // iterator.next() //执行第一个暂停点
+
+  function spawn(genF:any) {
+    return new Promise(function(resolve, reject) {
+      const gen = genF();
+      function step(nextF:any) {
+        let next;
+        try {
+          next = nextF();
+        } catch(e) {
+          return reject(e);
+        }
+        if(next.done) {
+          return resolve(next.value);
+        }
+        Promise.resolve(next.value).then(function(v) {
+          step(function() { return gen.next(v); });
+        }, function(e) {
+          step(function() { return gen.throw(e); });
+        });
+      }
+      step(function() { return gen.next(undefined); });
+    });
+  }
+
+  fromEvent(document, 'click')
+  .pipe(
+    throttleTime(1000),
+    scan(count => count + 1, 0)
+  )
+  .subscribe(count => console.log(`Clicked ${count} times`));
+  
+  // ts
+  // http://www.semlinker.com/ts-comprehensive-tutorial/#3-1-%E7%B1%BB%E5%9E%8B%E6%96%AD%E8%A8%80
+
+  // 算法
+  // function flattenDeep(arr) {
+  //   return Array.isArray(arr) ? arr.reduce( (acc, cur) => [...acc, ...flattenDeep(cur)] , [])
+  //    : [arr] }
 
   return (
     <button className={classes} {...restProps} >
