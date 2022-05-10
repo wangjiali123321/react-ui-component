@@ -1,15 +1,10 @@
-<<<<<<< HEAD
+目前看这个
+
+
 业务-》 Webpack4-Dev-》vue||react->js，ts，css,算法，rxjs，webgl，http-》组件库-》webpack打包-》jenkis部署 ->git
 
-=======
-<<<<<<< HEAD
-Webpack4-Dev-》vue||react->js，ts，css,算法，webgl，http-》组件库->-环境配置-》webpack打包-》jenkis部署 ->git
-=======
-Webpack4-Dev-》vue||react->js，ts，css,算法，rxjs，webgl，http-》组件库-》webpack打包-》jenkis部署 ->git
->>>>>>> 90d761c3c184be95b33821c9d69a03d938757157
->>>>>>> ff13efafee84a8bf895a9c48714aa0afcfc083ec
-lerna脚手架（node）-》前端效率工具
 
+lerna脚手架（node）-》前端效率工具
 
 
 
@@ -23,14 +18,9 @@ react   看视频
 6.为什么 Fiber 双向链表的结构可以解决递归慢的问题 （5.1 待看视频更深入了解）写博客
 10.说一下 react 组件的生命周期；
 11.react 组件如何做性能优化，说说 pureComponent；
-<<<<<<< HEAD
-12.调用 setState 之后发生了什么;
-14.有用过 hooks 么？怎么看待 hooks？它的原理是；
-=======
 12.调用 setState 之后发生了什么;，
 13.了解 fiber 么？解决了什么问题？具体原理是；
 14.有用过 hooks 么？怎么看待 hooks？它的原理是；git
->>>>>>> ff13efafee84a8bf895a9c48714aa0afcfc083ec
 15.了解过 react 最新的一些动态么？time slice 、suspense、server component 能说说么；
 
 环境配置
@@ -39,12 +29,11 @@ vscode插件  5.5
 
 js
 1.   正则  [^'']+(?="")
-2.ES6 Proxy 如何使用以及使用场景，说说 Reflect； reactiviy原理用上es6高级用法
-3.generator 有什么应用场景;es6用上es6高级用法
-4.async await 如何实现的；es6用上es6高级用法
-1.Promise 的用法？了解 allSettled 方法么，怎么实现？待用上es6高级用法
-1.ES5 实现继承的方法;待用上es6高级用法
-2.js 的严格模式；用上es6高级用法
+3.generator 有什么应用场景;
+4.async await 如何实现的；
+1.Promise 的用法？了解 allSettled 方法么，怎么实现？
+1.ES5 实现继承的方法;
+2.js 的严格模式；
 说说 Iterator 的使用；
 
 rxjs
@@ -55,7 +44,6 @@ ts
 
 css
 
-17.说一说 flex 布局，有了解 Grid 么；待
 19.为什么说用 css 实现动画比 js 动画性能好；
 
 
@@ -76,7 +64,7 @@ css
 request cache；
 实现模版字符串；
 es6 class 转成 es5 ；
-实现 Array flat 等相关 API；
+实现 Array flat 等相关 API； 目前看这个
 实现一个版本比较函数；...
 3.希尔排序，堆排，快排；
 4.this 指向问题，说出输出内容；待
@@ -110,6 +98,9 @@ node：
 
 git
 7.git reset 与 revert 区别，revert 多个 mr 改如何处理；待写自动化脚本cli
+git merge --abort  5.10
+git pull origin xt  5.10
+git continue  5.10
 
 http
 1.说说 http 缓存；待性能优化
@@ -119,7 +110,6 @@ http
 3.http2 与 http1.1 区别；待性能优化
 1.http 状态码；待
 tcp 握手 回收过程，了解泛洪攻击么；
-
 
 
 

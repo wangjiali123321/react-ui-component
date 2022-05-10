@@ -38,7 +38,7 @@ export const Button: FC<any> = (props) => {
               break
       }
   }
-  // isMan(gender.man)  //男性
+  isMan(gender.man)  //男性
   // console.log('gender.man',gender.man)
 
   // proxy
@@ -128,6 +128,19 @@ export const Button: FC<any> = (props) => {
   // let iterator = gen()
   // iterator.next() //执行第一个暂停点
 
+
+  // async function fn(args) {
+  //   // ...
+  // }
+  
+  // 等同于
+  // async 函数的实现原理，就是将 Generator 函数和自动执行器，包装在一个函数里。
+
+  function fn(args:any) {
+    return spawn(function* () {
+      // ...
+    });
+  }
   function spawn(genF:any) {
     return new Promise(function(resolve, reject) {
       const gen = genF();
