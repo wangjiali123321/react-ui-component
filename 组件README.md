@@ -9,17 +9,14 @@ lerna脚手架（node）-》前端效率工具
 
 
 webpack
-为什么 vite、snowpack 可以比 webpack 快那么多？(5.1 看视频)
 
 vue
 
 
-react   看视频
-6.为什么 Fiber 双向链表的结构可以解决递归慢的问题 （5.1 待看视频更深入了解）写博客
+react 和组件一起  
 10.说一下 react 组件的生命周期；
 11.react 组件如何做性能优化，说说 pureComponent；
 12.调用 setState 之后发生了什么;，
-13.了解 fiber 么？解决了什么问题？具体原理是；
 14.有用过 hooks 么？怎么看待 hooks？它的原理是；git
 15.了解过 react 最新的一些动态么？time slice 、suspense、server component 能说说么；
 
@@ -27,7 +24,7 @@ react   看视频
 eslint  preclint！！！  5.5
 vscode插件  5.5
 
-js
+js 和组件一起
 1.   正则  [^'']+(?="")
 3.generator 有什么应用场景;
 4.async await 如何实现的；
@@ -36,42 +33,37 @@ js
 2.js 的严格模式；
 说说 Iterator 的使用；
 
-rxjs
+rxjs 和组件一起
 文档案例
+https://rxjs-cn.github.io/learn-rxjs-operators/operators/combination/concatall.html
 
-ts
+ts 和组件一起
 看高级类型
 
-css
+css 和组件一起
 
 19.为什么说用 css 实现动画比 js 动画性能好；
+https://zhuanlan.zhihu.com/p/156712570
 
 
-算法
+算法 和组件一起
 4.手写在 给定的 n 个数中随机取出 m 个数，要求等概率；待
-5.手写一下防抖节流函数；待
-实现斐波纳切数，递归和非递归的时间复杂度分别是多少
-手写大数相加方法；
 4.实现一个方块的拖拽；
 5.说一说快速排序的过程；待
-二维数组中的查找；
 从先序遍历还原二叉树
 手写一个版本比较函数；
 实现一下 cache request（请求过的数据不再请求）
-防抖节流；
 手写 Promise 及相关 api 实现；
 实现 bind、apply、call；
 request cache；
-实现模版字符串；
 es6 class 转成 es5 ；
-实现 Array flat 等相关 API； 目前看这个
 实现一个版本比较函数；...
 3.希尔排序，堆排，快排；
 4.this 指向问题，说出输出内容；待
 
 
 
-组件
+组件（组件需要自己去实现作者的实现）
 设计一个时间组件 日历组件
 设计实现一个「星级评分」组件；待
 实现一个流水线组件
@@ -117,6 +109,7 @@ tcp 握手 回收过程，了解泛洪攻击么；
 8.说说跨域；待
 9.什么是 CSRF 攻击，怎么预防；待
 3.从一个 URL 输入到页面渲染，经历了哪些过程，尽可能的详细；微信收藏
+https://time.geekbang.org/column/article/113513
 2.路由器和交换机的区别；
 1.设计一个协同文档的技术流程；
 2.如何设计一个组件库；待
