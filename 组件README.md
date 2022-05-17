@@ -4,6 +4,8 @@
 业务-》 Webpack4-Dev-》vue||react->js，ts，css,算法，rxjs，webgl，http-》组件库-》webpack打包-》jenkis部署 ->git
 
 
+Webpack4-Dev-》vue||react->js，ts，css,算法，webgl，http-》组件库->-环境配置-》webpack打包-》jenkis部署 ->git
+Webpack4-Dev-》vue||react->js，ts，css,算法，rxjs，webgl，http-》组件库-》webpack打包-》jenkis部署 ->git
 lerna脚手架（node）-》前端效率工具
 
 
