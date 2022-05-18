@@ -170,8 +170,12 @@ function coverUpload(props: any) {
   // function flattenDeep(arr) {
   //   return Array.isArray(arr) ? arr.reduce( (acc, cur) => [...acc, ...flattenDeep(cur)] , [])
   //    : [arr] }
+
+
   return (
     <div>
+      <input type="file" ref="fileInput" ></input>
+      <canvas ref="canvas"></canvas>
       <div onClick={()=> showSelectPic()}>上传图片</div>
       <ReactCropper />
       <input id="example"></input>

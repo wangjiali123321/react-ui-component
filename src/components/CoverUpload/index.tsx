@@ -6,8 +6,7 @@ function Intro() {
 
   return (
     <div>
-        <Coverupload
-        />
+      <Coverupload/>
     </div>
   );
 }
