@@ -10,8 +10,9 @@ lerna脚手架（node）-》前端效率工具
 
 
 
-webpack
-less-loader 的 less 转成 css 的底层原理
+webpack  公司内网项目写webpack升级时考虑
+
+less-loader 的 less 转成 css 的底层原理   loading
 webpack 如何做代码拆分
 webpack tree shaking 原理
 webpack 动态导入原理
@@ -21,16 +22,18 @@ Webpack bundle、chunk、module的区别
 Webpack 热更新原理，怎么找到对应的局部模块做更新的
 
 
-vue
+vue   公司内网项目写vue时考虑
+
 Vue 的双向绑定机制
-Vue 3.0 和 2.0 区别
+Vue 3.0 和 2.0 区别   loading
 Vue.$nextTick 作用
 Vue 和 React 的 diff 有什么区别
 
 
 
-react 和组件一起  
-10.说一下 react 组件的生命周期；
+react 写外网react组件时考虑
+
+10.说一下 react 组件的生命周期；             loading
 11.react 组件如何做性能优化，说说 pureComponent；
 12.调用 setState 之后发生了什么;，
 react   看视频
@@ -52,14 +55,13 @@ React 的 purecomponent 和 component 的区别
 redux 中间件的实现原理
 
 
-环境配置
-eslint  preclint！！！  5.5
+环境配置  公司内网项目webpack升级+lerna+组件库时考虑
+eslint  preclint！！！  5.5  loading
 vscode插件  5.5
 
-js 和组件一起
+js 和组件一起  公司内网项目写代码时考虑
 1.   正则  [^'']+(?="")
-3.generator 有什么应用场景;
-4.async await 如何实现的；
+4.async await 如何实现的； loading
 1.Promise 的用法？了解 allSettled 方法么，怎么实现？
 1.ES5 实现继承的方法;
 2.js 的严格模式；
@@ -80,36 +82,36 @@ new 发生了什么
 script 标签里分别设置 defer 和 async， 它们的执行顺序是怎么样的
 isNaN和number.isNaN区别
 
-rxjs 和组件一起
+rxjs 写外网react组件时考虑
+
 文档案例
 https://rxjs-cn.github.io/learn-rxjs-operators/operators/combination/concatall.html
-https://github.com/pftom/rxjs-demoes
+https://github.com/pftom/rxjs-demoes   loading
 
 
 
-ts 和组件一起
+ts 写外网react组件时考虑
+
 看高级类型
-TS 的 type 和 interface 的区别
+TS 的 type 和 interface 的区别   loading
 TS 怎么做枚举
 TS 泛型
 
 
-css 和组件一起
+css 公司内网项目三个项目
 
-19.为什么说用 css 实现动画比 js 动画性能好；
+19.为什么说用 css 实现动画比 js 动画性能好；  loading
 https://zhuanlan.zhihu.com/p/156712570
 
 
-算法 和组件一起
+算法 公司内网项目三个项目
 4.手写在 给定的 n 个数中随机取出 m 个数，要求等概率；待
-4.实现一个方块的拖拽；
 5.说一说快速排序的过程；待
 手写一个版本比较函数；
-实现一下 cache request（请求过的数据不再请求）
 手写 Promise 及相关 api 实现；
 5.说一说快速排序的过程；待
 手写一个版本比较函数；
-实现一下 cache request（请求过的数据不再请求）
+实现一下 cache request（请求过的数据不再请求）   loading
 实现 bind、apply、call；
 request cache；
 es6 class 转成 es5 ；
@@ -126,14 +128,17 @@ https://zhuanlan.zhihu.com/p/156712570
 
 
 
-组件（组件需要自己去实现作者的实现）
+组件   公司内网项目三个项目（需要补充的ui写入vue）  +  外网需要处理的项目（有难度的react组件写成vue）
+
+cropper组件？？ 5.6
 设计一个时间组件 日历组件
 设计实现一个「星级评分」组件；待
 实现一个流水线组件
-contentDetail ，baselayout ， luckymutlcardlist  5.5
-cropper组件？？ 5.6
+contentDetail ，   loading
+baselayout ，
+ luckymutlcardlist  5.5
 mavon-editor
-vue-simple-uploader 断点续传
+vue-simple-uploader 断点续传  loading
 低代码平台运行时的生成逻辑
 低代码平台性能优化
 低代码平台组件发布流程
@@ -141,18 +146,19 @@ vue-simple-uploader 断点续传
 低代码平台的技术原理
 
 
-ionic 
-16.怎么实现响应式布局的；ionic移动端布局试试
+ionic  在家搞
+16.怎么实现响应式布局的；ionic移动端布局试试   loading
 移动端适配方案, rem 和 em 的区别
 18.有兼容 retina 屏幕的经历吗？如何在移动端实现 1 px 的线;待ionic 集合处理
 33.hybrid 通信原理；
 抖音APP 与 H5 如何通信
 字节小程序和微信小程序区别
 
-node：
+
+node： 写内网lerna项目考虑
 1 ssr
 36.SSR 怎么做的，怎么保证同构？server 端的数据都 renderToSting 消费了，为什么还要给到 client 端；
-1.node 如何捕捉错误，内存泄漏怎么排查；
+1.node 如何捕捉错误，内存泄漏怎么排查；  loading
 2.为什么要做 SSR；
 3.E2E 测试怎么做的，怎么保证测试覆盖率和准确性；
 如何合理分配 node 服务资源；
@@ -165,19 +171,22 @@ nginx怎么做反向代理与负载均衡
 
 //////////////////////////////// 下方代码以外的知识
 
-git
-7.git reset 与 revert 区别，revert 多个 mr 改如何处理；待写自动化脚本cli
+git  公司内部项目考虑
+
+7.git reset 与 revert 区别，revert 多个 mr 改如何处理；待写自动化脚本cli  loading
 git merge --abort  5.10
 git pull origin xt  5.10
 git continue  5.10
 npm管理痛点，如何解决
 gitflow流程、分支管理
 
-http
+
+http  公司内部项目考虑
+
 1.说说 http 缓存；待性能优化
-8.http2 与 http1.1 区别，了解 http3 么，说说；待性能优化
+8.http2 与 http1.1 区别，了解 http3 么，说说；待性能优化    
 2.tcp 与 udp 的区别；待性能优化
-2.什么是 合成层；
+2.什么是 合成层；   loading
 3.http2 与 http1.1 区别；待性能优化
 1.http 状态码；待
 tcp 握手 回收过程，了解泛洪攻击么；
@@ -193,8 +202,8 @@ TCP/IP 如何保证传输稳定性
 V8 引擎对垃圾回收的优化
 
 
-其他
-8.说说跨域；待
+其他  公司内部项目考虑
+8.说说跨域；待    loading
 9.什么是 CSRF 攻击，怎么预防；待
 3.从一个 URL 输入到页面渲染，经历了哪些过程，尽可能的详细；微信收藏
 https://time.geekbang.org/column/article/113513
