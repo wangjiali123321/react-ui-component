@@ -174,8 +174,8 @@ function coverUpload(props: any) {
 
   return (
     <div>
-      <input type="file" ref="fileInput" ></input>
-      <canvas ref="canvas"></canvas>
+      {/* <input type="file" ></input> */}
+      {/* <canvas ref="canvas"></canvas> */}
       <div onClick={()=> showSelectPic()}>上传图片</div>
       <ReactCropper />
       <input id="example"></input>
