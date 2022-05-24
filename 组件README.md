@@ -10,7 +10,7 @@ lerna脚手架（node）-》前端效率工具
 
 
 
-webpack  公司内网项目写webpack升级时考虑
+webpack  写点击页面跳vscode vue|| webpack4
 
 less-loader 的 less 转成 css 的底层原理   loading
 webpack 如何做代码拆分
@@ -22,16 +22,17 @@ Webpack bundle、chunk、module的区别
 Webpack 热更新原理，怎么找到对应的局部模块做更新的
 
 
-vue   公司内网项目写vue时考虑
+vue   公司项目开发，组件平台开发
 
 Vue 的双向绑定机制
 Vue 3.0 和 2.0 区别   loading
 Vue.$nextTick 作用
 Vue 和 React 的 diff 有什么区别
+vue所有$有哪些
+computed ，watch区别
 
 
-
-react 写外网react组件时考虑
+react  写vue难得组件的时候
 
 10.说一下 react 组件的生命周期；             loading
 11.react 组件如何做性能优化，说说 pureComponent；
@@ -55,11 +56,12 @@ React 的 purecomponent 和 component 的区别
 redux 中间件的实现原理
 
 
-环境配置  公司内网项目webpack升级+lerna+组件库时考虑
+环境配置  从0到1 xt配置
 eslint  preclint！！！  5.5  loading
 vscode插件  5.5
 
-js 和组件一起  公司内网项目写代码时考虑
+js  任何时候
+
 1.   正则  [^'']+(?="")
 4.async await 如何实现的； loading
 1.Promise 的用法？了解 allSettled 方法么，怎么实现？
@@ -81,8 +83,11 @@ requestAnimationFram 与 requestIdleCallback 的区别
 new 发生了什么
 script 标签里分别设置 defer 和 async， 它们的执行顺序是怎么样的
 isNaN和number.isNaN区别
+var let 啥时候变量提升
+js 动态 静态编译
 
-rxjs 写外网react组件时考虑
+
+rxjs 写vue难得组件时写react
 
 文档案例
 https://rxjs-cn.github.io/learn-rxjs-operators/operators/combination/concatall.html
@@ -90,7 +95,7 @@ https://github.com/pftom/rxjs-demoes   loading
 
 
 
-ts 写外网react组件时考虑
+ts 写vue难得组件时写react
 
 看高级类型
 TS 的 type 和 interface 的区别   loading
@@ -98,13 +103,13 @@ TS 怎么做枚举
 TS 泛型
 
 
-css 公司内网项目三个项目
+css 公司项目 + 组件库 +  写vue难得组件时写react
 
 19.为什么说用 css 实现动画比 js 动画性能好；  loading
 https://zhuanlan.zhihu.com/p/156712570
 
 
-算法 公司内网项目三个项目
+算法 所有
 4.手写在 给定的 n 个数中随机取出 m 个数，要求等概率；待
 5.说一说快速排序的过程；待
 手写一个版本比较函数；
@@ -130,20 +135,22 @@ https://zhuanlan.zhihu.com/p/156712570
 
 组件   公司内网项目三个项目（需要补充的ui写入vue）  +  外网需要处理的项目（有难度的react组件写成vue）
 
-cropper组件？？ 5.6
+拓扑，大屏 -》
+
+cropper组件？？ 5.6  vue自己实现
 设计一个时间组件 日历组件
 设计实现一个「星级评分」组件；待
-实现一个流水线组件
 contentDetail ，   loading
 baselayout ，
  luckymutlcardlist  5.5
-mavon-editor
-vue-simple-uploader 断点续传  loading
+mavon-editor  vue自己实现
+vue-simple-uploader 断点续传  loading  vue自己实现
 低代码平台运行时的生成逻辑
 低代码平台性能优化
 低代码平台组件发布流程
 大文件的分片上传和断点续传怎么做的
 低代码平台的技术原理
+element-ui基础组件实现
 
 
 ionic  在家搞
