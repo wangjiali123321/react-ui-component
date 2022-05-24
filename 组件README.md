@@ -133,6 +133,7 @@ https://zhuanlan.zhihu.com/p/156712570
 
 
 
+<<<<<<< HEAD
 组件   公司内网项目三个项目（需要补充的ui写入vue）  +  外网需要处理的项目（有难度的react组件写成vue）
 
 拓扑，大屏 -》
@@ -145,6 +146,25 @@ baselayout ，
  luckymutlcardlist  5.5
 mavon-editor  vue自己实现
 vue-simple-uploader 断点续传  loading  vue自己实现
+=======
+组件   公司内网项目三个项目（需要补充的ui写入vue）  +  外网需要处理的项目（有难度的vue组件写成react）
+
+cropper组件？？ 5.6   vue->react
+设计一个时间组件 日历组件  vue->react
+mavon-editor             vue->react
+vue-simple-uploader 断点续传  vue->react
+
+|
+player 
+设计实现一个「星级评分」组件；待    内网loading
+实现一个流水线组件||攻击链组件 
+|
+contentDetail ，   loading    理解解构
+baselayout ，                   理解解构
+luckymutlcardlist  5.5           理解解构
+
+
+>>>>>>> e3311942b6e1e1a6a0ccccadab02d1f2f3d7445f
 低代码平台运行时的生成逻辑
 低代码平台性能优化
 低代码平台组件发布流程
@@ -174,6 +194,7 @@ Node 遇到过哪些性能问题
 Node 做耗时的计算时候，如何避免阻塞
 Express 和 Koa 的区别
 nginx怎么做反向代理与负载均衡
+jenkis 5.20
 
 
 //////////////////////////////// 下方代码以外的知识
