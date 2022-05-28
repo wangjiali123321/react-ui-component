@@ -10,7 +10,7 @@ lerna脚手架（node）-》前端效率工具
 
 
 
-webpack  写点击页面跳vscode vue|| webpack4
+webpack  写点击页面跳vscode vue    ||   webpack4，5 vite
 
 less-loader 的 less 转成 css 的底层原理   loading
 webpack 如何做代码拆分
@@ -22,7 +22,27 @@ Webpack bundle、chunk、module的区别
 Webpack 热更新原理，怎么找到对应的局部模块做更新的
 
 
-vue   公司项目开发，组件平台开发
+
+公司tz xt项目开发 ，  组件平台开发 , vuecom开发++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+组件  
+
+
+mavon-editor         
+vue-simple-uploader 断点续传
+拓扑ht，大屏ht threejs -》
+cropper组件？？ 5.6  vue自己实现
+设计一个时间组件 日历组件
+设计实现一个「星级评分」组件；待
+contentDetail ，   loading
+baselayout ，
+luckymutlcardlist  5.5
+cropper组件？？ 5.6
+设计一个时间组件 日历组件  v
+
+
+
+vue   
 
 Vue 的双向绑定机制
 Vue 3.0 和 2.0 区别   loading
@@ -30,35 +50,6 @@ Vue.$nextTick 作用
 Vue 和 React 的 diff 有什么区别
 vue所有$有哪些
 computed ，watch区别
-
-
-react  写vue难得组件的时候
-
-10.说一下 react 组件的生命周期；             loading
-11.react 组件如何做性能优化，说说 pureComponent；
-12.调用 setState 之后发生了什么;，
-react   看视频
-10.说一下 react 组件的生命周期；
-11.react 组件如何做性能优化，说说 pureComponent；
-12.调用 setState 之后发生了什么;，
-setState 是同步还是异步的
-13.了解 fiber 么？解决了什么问题？具体原理是；
-14.有用过 hooks 么？怎么看待 hooks？它的原理是；git
-15.了解过 react 最新的一些动态么？time slice 、suspense、server component 能说说么；
-React Hooks vs Component
-React中的 useCallback 和 useMemo 有什么区别，什么情况下需要用 useCallback
-React 解决了什么问题
-redux 单向数据流有哪些优势，redux 中间件实现原理
-React HOC vs renderProps
-React router 的两种模式模式，怎么动态获取路由上的 id
-redux 中间件的实现原理
-React 的 purecomponent 和 component 的区别
-redux 中间件的实现原理
-
-
-环境配置  从0到1 xt配置
-eslint  preclint！！！  5.5  loading
-vscode插件  5.5
 
 js  任何时候
 
@@ -94,19 +85,7 @@ https://rxjs-cn.github.io/learn-rxjs-operators/operators/combination/concatall.h
 https://github.com/pftom/rxjs-demoes   loading
 
 
-
-ts 写vue难得组件时写react
-
-看高级类型
-TS 的 type 和 interface 的区别   loading
-TS 怎么做枚举
-TS 泛型
-
-
 css 公司项目 + 组件库 +  写vue难得组件时写react
-
-19.为什么说用 css 实现动画比 js 动画性能好；  loading
-https://zhuanlan.zhihu.com/p/156712570
 
 
 算法 所有
@@ -131,73 +110,9 @@ https://zhuanlan.zhihu.com/p/156712570
 设计一个flat函数将如下数组arr=[1,2,['3',4,'5',[6,[7,8],9]]]输出为1,2,'3',4,'5',6,7,8,9。至少写出两种方法,要求不能改变数组中的原始数据类型
 设计和实现一个 LRU (最近最少使用) 缓存机制，满足：1.获取数据 get(key) - 如果密钥 (key) 存在于缓存中，则获取密钥的值（总是正数），否则返回 -1。2.写入数据 put(key, value) - 如果密钥已经存在，则变更其数据值；如果密钥不存在，则插入该组「密钥/数据值」。
 
+19.为什么说用 css 实现动画比 js 动画性能好；  loading
+https://zhuanlan.zhihu.com/p/156712570
 
-
-<<<<<<< HEAD
-组件   公司内网项目三个项目（需要补充的ui写入vue）  +  外网需要处理的项目（有难度的react组件写成vue）
-
-拓扑，大屏 -》
-
-cropper组件？？ 5.6  vue自己实现
-设计一个时间组件 日历组件
-设计实现一个「星级评分」组件；待
-contentDetail ，   loading
-baselayout ，
- luckymutlcardlist  5.5
-mavon-editor  vue自己实现
-vue-simple-uploader 断点续传  loading  vue自己实现
-=======
-组件   公司内网项目三个项目（需要补充的ui写入vue）  +  外网需要处理的项目（有难度的vue组件写成react）
-
-cropper组件？？ 5.6   vue->react
-设计一个时间组件 日历组件  vue->react
-mavon-editor             vue->react
-vue-simple-uploader 断点续传  vue->react
-
-|
-player 
-设计实现一个「星级评分」组件；待    内网loading
-实现一个流水线组件||攻击链组件 
-|
-contentDetail ，   loading    理解解构
-baselayout ，                   理解解构
-luckymutlcardlist  5.5           理解解构
-
-
->>>>>>> e3311942b6e1e1a6a0ccccadab02d1f2f3d7445f
-低代码平台运行时的生成逻辑
-低代码平台性能优化
-低代码平台组件发布流程
-大文件的分片上传和断点续传怎么做的
-低代码平台的技术原理
-element-ui基础组件实现
-
-
-ionic  在家搞
-16.怎么实现响应式布局的；ionic移动端布局试试   loading
-移动端适配方案, rem 和 em 的区别
-18.有兼容 retina 屏幕的经历吗？如何在移动端实现 1 px 的线;待ionic 集合处理
-33.hybrid 通信原理；
-抖音APP 与 H5 如何通信
-字节小程序和微信小程序区别
-
-
-node： 写内网lerna项目考虑
-1 ssr
-36.SSR 怎么做的，怎么保证同构？server 端的数据都 renderToSting 消费了，为什么还要给到 client 端；
-1.node 如何捕捉错误，内存泄漏怎么排查；  loading
-2.为什么要做 SSR；
-3.E2E 测试怎么做的，怎么保证测试覆盖率和准确性；
-如何合理分配 node 服务资源；
-Graphql 的使用
-Node 遇到过哪些性能问题
-Node 做耗时的计算时候，如何避免阻塞
-Express 和 Koa 的区别
-nginx怎么做反向代理与负载均衡
-jenkis 5.20
-
-
-//////////////////////////////// 下方代码以外的知识
 
 git  公司内部项目考虑
 
@@ -230,6 +145,81 @@ TCP/IP 如何保证传输稳定性
 V8 引擎对垃圾回收的优化
 
 
+lerna自动化开发 ，egg ,koa  , nodejs公众号开发 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+node： 写内网lerna项目考虑
+1 ssr
+36.SSR 怎么做的，怎么保证同构？server 端的数据都 renderToSting 消费了，为什么还要给到 client 端；
+1.node 如何捕捉错误，内存泄漏怎么排查；  loading
+2.为什么要做 SSR；
+3.E2E 测试怎么做的，怎么保证测试覆盖率和准确性；
+如何合理分配 node 服务资源；
+Graphql 的使用
+Node 遇到过哪些性能问题
+Node 做耗时的计算时候，如何避免阻塞
+Express 和 Koa 的区别
+nginx怎么做反向代理与负载均衡
+jenkis 5.20
+
+
+
+2D 3D项目 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ht,
+大屏 threejs blender
+
+
+
+ionic3+angualr4   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+16.怎么实现响应式布局的；ionic移动端布局试试   loading
+移动端适配方案, rem 和 em 的区别
+18.有兼容 retina 屏幕的经历吗？如何在移动端实现 1 px 的线;待ionic 集合处理
+33.hybrid 通信原理；
+抖音APP 与 H5 如何通信
+字节小程序和微信小程序区别
+
+
+
+react   react-ui+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+10.说一下 react 组件的生命周期；             loading
+11.react 组件如何做性能优化，说说 pureComponent；
+12.调用 setState 之后发生了什么;，
+react   看视频
+10.说一下 react 组件的生命周期；
+11.react 组件如何做性能优化，说说 pureComponent；
+12.调用 setState 之后发生了什么;，
+setState 是同步还是异步的
+13.了解 fiber 么？解决了什么问题？具体原理是；
+14.有用过 hooks 么？怎么看待 hooks？它的原理是；git
+15.了解过 react 最新的一些动态么？time slice 、suspense、server component 能说说么；
+React Hooks vs Component
+React中的 useCallback 和 useMemo 有什么区别，什么情况下需要用 useCallback
+React 解决了什么问题
+redux 单向数据流有哪些优势，redux 中间件实现原理
+React HOC vs renderProps
+React router 的两种模式模式，怎么动态获取路由上的 id
+redux 中间件的实现原理
+React 的 purecomponent 和 component 的区别
+redux 中间件的实现原理
+
+
+ts 写vue难得组件时写react
+
+看高级类型
+TS 的 type 和 interface 的区别   loading
+TS 怎么做枚举
+TS 泛型
+
+
+
+
+
+
+//////////////////////////////// 下方代码以外的知识
+
+
 其他  公司内部项目考虑
 8.说说跨域；待    loading
 9.什么是 CSRF 攻击，怎么预防；待
@@ -244,4 +234,9 @@ https://time.geekbang.org/column/article/113513
 CI/CD 流程，有哪些改进点
 线上错误监控怎么做
 BI 可视化系统介绍
-
+低代码平台运行时的生成逻辑
+低代码平台性能优化
+低代码平台组件发布流程
+大文件的分片上传和断点续传怎么做的
+低代码平台的技术原理
+element-ui基础组件实现
